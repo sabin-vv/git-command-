@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
     res.send(`result ${result}`)
 })
 
-app.get("home", (req, res) => {
+app.get("/home", (req, res) => {
     function func2(num1, num2) {
         return num1 * num2
     }
